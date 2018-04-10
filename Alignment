@@ -1,0 +1,6 @@
+############################# align_Seqs procedure######################
+muscle -in Arch.fasta -phyiout align_filter_Arch.phy
+muscle -in CYA.fasta -phyiout align_filter_CYA.phy -maxiters 2
+muscle -in filtered.fasta -phyiout align_filter_341.phy -maxiters 2
+muscle -in ITS.fasta -phyiout align_filter_ITS.phy -maxiters 2
+#############################now trim it!################################
